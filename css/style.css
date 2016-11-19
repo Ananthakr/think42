@@ -44,9 +44,9 @@ a:active {
   margin-bottom: 70px;
 }
 .section-title h2 {
-  text-transform: uppercase;
+  
   font-size: 28px;
-  font-weight: 600;
+  font-weight: 300;
 }
 .section-title p {
   font-family: 'Volkhov', serif;
@@ -59,6 +59,7 @@ a:active {
 header {
   background: #fff;
   padding: 20px 0;
+
 }
 header .navbar {
   margin-bottom: 0px;
@@ -165,6 +166,7 @@ header .navbar-default .navbar-nav li a:hover {
   padding-bottom: 30px;
   background-color: #fff;
   margin-top: 25px;
+  border: 1px solid rgba(0, 0, 0, 0.1);
 }
 #service .service-item i {
   font-size: 60px;
@@ -216,6 +218,7 @@ header .navbar-default .navbar-nav li a:hover {
   line-height: 33px;
   margin: 0;
   font-size: 30px;
+  font-weight: 300;
 }
 #call-to-action p {
   font-size: 14px;
@@ -256,7 +259,7 @@ header .navbar-default .navbar-nav li a:hover {
 }
 #feature h2 {
   font-size: 28px;
-  font-weight: 600;
+  font-weight: 300;
   color: #95d01f;
   margin-bottom: 30px;
 }
@@ -413,7 +416,7 @@ header .navbar-default .navbar-nav li a:hover {
 
 }
 #portfolio-work .block .portfolio-menu >h2{
-  font-weight: 600;
+  font-weight: 300;
   font-size: 28px;
   color:#087d63;
   text-transform: uppercase;
@@ -430,10 +433,11 @@ header .navbar-default .navbar-nav li a:hover {
   cursor: pointer;
   font-size: 15px;
   line-height: 40px;
-  font-weight: 600;
+  font-weight: 300;
   color: #333333;
   text-transform: capitalize;
   position: relative;
+  
 }
 #portfolio-work .block .portfolio-menu ul .active {
   color: #655E7A;
@@ -483,6 +487,7 @@ header .navbar-default .navbar-nav li a:hover {
   overflow: hidden;
   margin: 6px;
   position: relative;
+   border: 1px solid rgba(0, 0, 0, 0.1);
 }
 #portfolio-work .block .portfolio-contant ul li:hover .overly {
   opacity: 1;
@@ -824,5 +829,26 @@ footer .footer-manu ul li a:hover {
 }
 .contact .block >h2{
   color: #087d63;
-  font-weight: 500;
+  font-weight: 300;
 }
+
+//for navbar icon
+
+#nav-toggle
+{ position: absolute; left: 50%; top: 50%; }
+
+#nav-toggle
+ { cursor: pointer; padding: 10px 35px 16px 0px; }
+
+#nav-toggle span, #nav-toggle span:before, #nav-toggle span:after 
+{  cursor: pointer;  border-radius: 3px;  height: 4px;  width: 30px;  background: #087d63;  position: absolute;  display: block;  content: '';}
+
+#nav-toggle span:before {  top: -10px; }#nav-toggle span:after {  bottom: -10px;}
+
+#nav-toggle span, #nav-toggle span:before, #nav-toggle span:after {  transition: all 500ms ease-in-out;}
+
+#nav-toggle.active span {  background-color: transparent;}
+
+#nav-toggle.active span:before, #nav-toggle.active span:after {  top: 0;}#nav-toggle.active span:before {  transform: rotate(45deg);}
+
+#nav-toggle.active span:after {  transform: rotate(-45deg);}
