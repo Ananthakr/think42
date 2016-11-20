@@ -861,23 +861,29 @@ footer .footer-manu ul li a:hover {
 
 #initial{
   padding-bottom: 30px;
+  padding-top: 20px;
 }
 .careers-title {
   font-weight:300;
   letter-spacing: 1px; 
   padding-bottom: 10px;
+  text-align: center;
 }
-.careers-body{
-   
+.careers-body ul{
+   font-weight: 300;
+    font-size: large;
 }
 .careers-body{
   font-size: 16px;
   color: #333;
 }
+
+
 .careers-body h4{
   padding-top: 10px;
-  font-weight: 400;
+  font-weight: 300;
    text-align: center;
+   font-size: xx-large;
 } 
 
 .dohere{
@@ -926,13 +932,13 @@ footer .footer-manu ul li a:hover {
   font-weight: 300;
 }
 
-.btn{
+.btn-lg{
   background-color:#087d63 ;
   color: #fff;
   border: none;
   font-weight: 500;
 }
-.btn:hover,.btn:active,.btn:focus{
+.btn-lg:hover,.btn-lg:active,.btn-lg:focus{
   
   background-color: #94cf1b;
   color: #fff;
@@ -953,6 +959,9 @@ footer .footer-manu ul li a:hover {
   z-index: 9999;
   background: url(../img/unnamed.gif) center no-repeat #fff;
 }
+
+
+
 
 .padzero{
   padding:0;
