@@ -8,6 +8,8 @@
 body {
   font-family: 'Open Sans', sans-serif;
   -webkit-font-smoothing: antialiased;
+  overflow-x:hidden!important;
+  width: auto!important; 
 }
 h1,
 h2,
@@ -852,3 +854,85 @@ footer .footer-manu ul li a:hover {
 #nav-toggle.active span:before, #nav-toggle.active span:after {  top: 0;}#nav-toggle.active span:before {  transform: rotate(45deg);}
 
 #nav-toggle.active span:after {  transform: rotate(-45deg);}
+
+
+
+#initial{
+  padding-bottom: 30px;
+}
+.careers-title {
+  font-weight:300;
+  letter-spacing: 1px; 
+  padding-bottom: 10px;
+}
+.careers-body{
+   
+}
+.careers-body{
+  font-size: 16px;
+  color: #333;
+}
+.careers-body h4{
+  padding-top: 10px;
+  font-weight: 400;
+   text-align: center;
+} 
+
+.dohere{
+  font-size: 15px;
+  background-color:#f2f2f2;
+  padding: 30px 40px 30px 40px;
+  border-radius: 2px 0px 0px 2px;
+}
+@media(min-width: 960px){
+  .dohere{
+    height: 320px;
+  }
+}
+
+.req{
+  border-radius: 0px 2px 2px 0px;
+   padding: 30px 40px 30px 40px;
+  background-color: #333;
+  color: #fff;
+}
+
+@media(min-width: 960px){
+  .req{
+    height: 320px;
+  }
+}
+
+#career-abt .section-title{
+  margin-bottom: 20px;
+}
+
+#career-form{
+  margin-top: 30px;
+  margin-bottom: 50px;
+  background-color: #fff;
+}
+
+#career-form .section-title{
+  margin-bottom: 30px;
+}
+.center-block{
+  float: none;
+}
+
+#career-form h4{
+  font-weight: 300;
+}
+
+.btn{
+  background-color:#087d63 ;
+  color: #fff;
+  border: none;
+  font-weight: 500;
+}
+.btn:hover,.btn:active,.btn:focus{
+  
+  background-color: #94cf1b;
+  color: #fff;
+
+}
