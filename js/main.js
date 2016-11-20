@@ -44,6 +44,15 @@ $(document).ready(function(){
     this.classList.toggle( "active" );
   });
 
+
+
+  	// Wait for window load
+	$(window).load(function() {
+		// Animate loader off screen
+		$(".se-pre-con").fadeOut("slow");;
+	});
+
+	
 	// Counter
 
 	$('.counter').counterUp({
